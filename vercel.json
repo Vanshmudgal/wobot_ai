@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/proxy/:match*",
+      "destination": "https://api-app-staging.wobot.ai/app/v1/:match*"
+    }
+  ]
+}
